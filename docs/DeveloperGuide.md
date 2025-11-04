@@ -618,9 +618,6 @@ Where:
 | Permission denied | Show specific error, prompt for retry or exit | Error message |
 | Disk full | Show specific error, prompt for retry or exit | Error message |
 
-**Why These Design Choices:**
-
-We use atomic writes (temp file + rename) to avoid data corruption if the program crashes mid-save. The custom delimiter format is simpler than JSON and lets us validate each line as we read it. If something goes wrong with storage, the application still runs normally - users can always export their data manually as a backup option.
 
 **Example Storage File:**
 
