@@ -803,7 +803,7 @@ The status display system provides users with visual feedback on project progres
 
 ##### Status Command Execution Flow
 
-![Status Command Sequence Diagram](plantUML/status-command-sequence/status-command-sequence-diagram.png)
+![Status Command Sequence Diagram](plantUML/status-command-sequence/Status-command-sequence-diagram.png)
 
 The above diagram shows the execution flow for displaying a specific project's status (e.g., `status 1`). The diagram focuses on the main success path for clarity.
 
